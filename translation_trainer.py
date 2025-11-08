@@ -452,10 +452,10 @@ class TranslationExperiment:
 
         # 实验配置
         experiments = {
-            # 'baseline': {
-            #     'description': '完整Transformer翻译模型',
-            #     'config_updates': {}
-            # },
+            'baseline': {
+                'description': '完整Transformer翻译模型',
+                'config_updates': {}
+            },
             'no_positional_encoding': {
                 'description': '移除位置编码',
                 'config_updates': {'positional_encoding': 'none'}
