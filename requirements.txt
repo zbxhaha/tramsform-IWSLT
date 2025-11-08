@@ -1,0 +1,12 @@
+torch>=1.9.0
+torchvision>=0.10.0
+torchaudio>=0.9.0
+matplotlib>=3.3.0
+numpy>=1.19.0
+pandas>=1.1.0
+seaborn>=0.11.0
+tqdm>=4.50.0
+sentencepiece>=0.1.95
+datasets>=2.0.0
+transformers>=4.0.0
+pyyaml>=5.4.0
